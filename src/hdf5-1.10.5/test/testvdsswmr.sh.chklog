@@ -1,0 +1,28 @@
+============================
+testvdsswmr.sh  Test Log
+============================
+cp: -r not specified; omitting directory 'vds_swmr_test'
+
+###############################################################################
+## Basic VDS SWMR test - writing to a tiled plane
+###############################################################################
+launch the generator
+launch the 6 SWMR VDS writers (1 per source)
+launch 5 SWMR readers
+SWMR writer exited sucSScSWWeSSWMRMsWWM RsMMRw fRR rwu  wirlwwrtilrrietyiitre
+tte reere rr xe  eiSxeextWixxieMtiitdRette  deedsr dd ues  scaussucdcuuceeccccsrecces seesfessssuxfssfliuffultluSulyellWll
+dylMly 
+yRy
+s
+ 
+urcecaedsesrf uelxliyt
+ed successfully
+SWMR reader exited successfully
+SWMR reader exited successfully
+SWMR reader exited successfully
+VDS SWMR tests passed.
+216.01user 39.03system 0:24.66elapsed 1034%CPU (0avgtext+0avgdata 10572maxresident)k
+0inputs+360outputs (0major+30436662minor)pagefaults 0swaps
+
+Finished testing testvdsswmr.sh 
+============================

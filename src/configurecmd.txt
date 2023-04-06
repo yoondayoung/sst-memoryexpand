@@ -1,0 +1,9 @@
+# cmd for sst elements
+./configure --prefix=$SST_ELEMENTS_HOME --with-sst-core=$SST_CORE_HOME --with-dramsim=$DRAMSIM2_HOME --with-pin=$PIN_HOME
+
+# 메모리 사용량 확인
+du -h --max-depth=1
+
+sst /home/ydy/scratch/src/sst-elements/src/sst/elements/Opal/tests/basic_1node_1smp.py
+
+sst /home/ydy/scratch/src/sst-elements/src/sst/elements/Opal/tests/basic_1node_1smp.py &>  out_put.txt

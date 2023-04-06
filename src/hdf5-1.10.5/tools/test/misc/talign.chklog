@@ -1,0 +1,9 @@
+============================
+ talign  Test Log
+============================
+Testing alignment in compound datatypes                                PASSED
+0.03user 0.01system 0:00.04elapsed 114%CPU (0avgtext+0avgdata 8132maxresident)k
+0inputs+8outputs (0major+4085minor)pagefaults 0swaps
+
+Finished testing talign 
+============================

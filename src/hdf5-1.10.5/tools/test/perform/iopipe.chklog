@@ -1,0 +1,23 @@
+============================
+ iopipe  Test Log
+============================
+fill raw        =============================================
+fill hdf5       =============================================
+out raw         =============================================
+out hdf5        =============================================
+in raw          =============================================
+in hdf5         =============================================
+in hdf5 partial =============================================
+I/O request size is 1000000.0MB
+fill raw        0.00user 0.00system 0.01elapsed 8467.80MB/s
+fill hdf5       0.01user 0.00system 0.01elapsed 8361.98MB/s
+out raw         0.00user 0.01system 0.02elapsed 2791.26MB/s
+out hdf5        0.00user 0.01system 0.02elapsed 2641.43MB/s
+in raw          0.00user 0.01system 0.01elapsed 3753.28MB/s
+in hdf5         0.00user 0.01system 0.01elapsed 3472.42MB/s
+in hdf5 partial 0.00user 0.01system 0.02elapsed 2228.36MB/s
+0.07user 0.11system 0:00.28elapsed 68%CPU (0avgtext+0avgdata 7020maxresident)k
+0inputs+3992outputs (0major+4441minor)pagefaults 0swaps
+
+Finished testing iopipe 
+============================
